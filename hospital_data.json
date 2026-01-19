@@ -1,0 +1,150 @@
+{
+    "hospital_info": {
+        "name": "Creation Hospital",
+        "location": "Sector 21, New Delhi",
+        "contact_number": "+91-11-4567-8900",
+        "emergency_number": "+91-11-4567-9999",
+        "email": "support@creationhospital.com"
+    },
+    "opd_timings": {
+        "general_opd": "Monday to Saturday, 9:00 AM to 6:00 PM",
+        "sunday": "Emergency services only",
+        "registration_closes": "30 minutes before OPD closing time"
+    },
+    "doctors": [
+        {
+            "name": "Dr. Anjali Desai",
+            "department": "Cardiology",
+            "qualification": "MD, DM (Cardiology)",
+            "experience_years": 15,
+            "availability": "Monday, Wednesday, Friday (10:00 AM – 2:00 PM)",
+            "consultation_fee": "500 INR",
+            "languages": [
+                "English",
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Dr. Rajesh Kumar",
+            "department": "Orthopedics",
+            "qualification": "MS (Orthopedics)",
+            "experience_years": 18,
+            "availability": "Tuesday, Thursday, Saturday (11:00 AM – 4:00 PM)",
+            "consultation_fee": "600 INR",
+            "languages": [
+                "English",
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Dr. Sofia Martinez",
+            "department": "Gynecology",
+            "qualification": "MD (Gynecology)",
+            "experience_years": 12,
+            "availability": "Monday to Friday (9:30 AM – 1:30 PM)",
+            "consultation_fee": "550 INR",
+            "languages": [
+                "English",
+                "Spanish"
+            ]
+        },
+        {
+            "name": "Dr. Amit Verma",
+            "department": "Neurology",
+            "qualification": "DM (Neurology)",
+            "experience_years": 20,
+            "availability": "Wednesday & Friday (12:00 PM – 5:00 PM)",
+            "consultation_fee": "800 INR",
+            "languages": [
+                "English",
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Dr. Neha Sharma",
+            "department": "Pediatrics",
+            "qualification": "MD (Pediatrics)",
+            "experience_years": 10,
+            "availability": "Monday to Saturday (10:00 AM – 3:00 PM)",
+            "consultation_fee": "400 INR",
+            "languages": [
+                "English",
+                "Hindi"
+            ]
+        }
+    ],
+    "departments": [
+        "Cardiology",
+        "Orthopedics",
+        "Neurology",
+        "Gynecology",
+        "Pediatrics",
+        "Dermatology",
+        "ENT",
+        "General Medicine",
+        "Radiology",
+        "Pathology"
+    ],
+    "diagnostic_services": [
+        {
+            "service": "MRI Scan",
+            "price": "5000 INR",
+            "report_time": "24 hours"
+        },
+        {
+            "service": "CT Scan",
+            "price": "3500 INR",
+            "report_time": "12 hours"
+        },
+        {
+            "service": "X-Ray",
+            "price": "500 INR",
+            "report_time": "1 hour"
+        },
+        {
+            "service": "Blood Test (Basic)",
+            "price": "300 INR",
+            "report_time": "6 hours"
+        },
+        {
+            "service": "ECG",
+            "price": "400 INR",
+            "report_time": "30 minutes"
+        }
+    ],
+    "room_charges": {
+        "general_ward": "1200 INR per day",
+        "semi_private": "2500 INR per day",
+        "private_room": "4000 INR per day",
+        "icu": "5000 INR per day"
+    },
+    "insurance": {
+        "supported_providers": [
+            "Ayushman Bharat",
+            "Star Health",
+            "HDFC ERGO",
+            "ICICI Lombard",
+            "New India Assurance"
+        ],
+        "cashless_available": true,
+        "insurance_desk_timings": "Monday to Friday, 9:00 AM – 5:00 PM"
+    },
+    "policies": [
+        "Visiting hours are from 4:00 PM to 6:00 PM daily.",
+        "Only one attendant is allowed per patient.",
+        "Emergency services are available 24/7 at Gate B.",
+        "All patients must carry a valid government ID.",
+        "Masks are mandatory inside hospital premises."
+    ],
+    "appointment_rules": [
+        "Appointments can be booked online or at the reception.",
+        "Walk-in patients are accepted based on doctor availability.",
+        "Appointment cancellation must be done at least 2 hours in advance.",
+        "Late arrivals may need to reschedule appointments."
+    ],
+    "pharmacy": {
+        "location": "Ground Floor, Block A",
+        "timings": "24/7",
+        "home_delivery": true
+    }
+}
