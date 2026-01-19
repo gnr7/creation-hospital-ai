@@ -1,16 +1,11 @@
-# rag/rag_engine.py
 from rag.retriever import retrieve_context
+from llm.gemini import gemini_rewrite
 
 
-def rag_answer(query: str) -> str:
-    """
-    Simple RAG-based answer (no LLM yet).
-    Returns retrieved hospital knowledge.
-    """
-
+def rag_answer(query: str, language: str = "en") -> str:
     context = retrieve_context(query)
 
     if not context.strip():
-        return "Sorry, I do not have this information right now."
+        return "Sorry, I don’t have this information right now."
 
-    return context
+    return gemini_rewrite(context, query)
